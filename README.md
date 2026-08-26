@@ -17,7 +17,7 @@ Scientific reporting is often the final transformation in a long analytical chai
 
 Claim locking moves the control point upstream. Instead of asking an LLM to be more careful, it reduces what the LLM is allowed to decide. The resulting report remains readable, but its evidence-bearing content is inspectable and replayable.
 
-In our evaluations on functional-connectivity reporting and randomized controlled-trial reporting, this design substantially improved cross-run reproducibility over a deterministic hybrid template in which the LLM still selected the rendered findings. Blinded audits also supported the observed direction-preservation and governance trends. The full experimental materials are described in the accompanying paper; this repository intentionally provides a compact reference implementation rather than a complete reproduction package.
+In our evaluations on functional-connectivity reporting and randomized controlled-trial reporting, this design substantially improved cross-run reproducibility over a deterministic hybrid template in which the LLM still selected the rendered findings. Blinded audits also supported the observed direction-preservation and governance trends.
 
 ## The AI Reviewer Made the Errors This Paper Warns About
 
