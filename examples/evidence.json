@@ -1,0 +1,51 @@
+{
+  "record_id": "synthetic_public_demo",
+  "available_sources": [
+    "analysis.primary",
+    "analysis.sensitivity",
+    "provenance.limitations"
+  ],
+  "claims": [
+    {
+      "claim_id": "primary_result",
+      "claim_type": "statistical_result",
+      "canonical_text": "The prespecified analysis favored the intervention on the primary outcome.",
+      "source": "analysis.primary",
+      "numbers": {
+        "estimate": -2.4,
+        "confidence_interval_low": -3.8,
+        "confidence_interval_high": -1.0,
+        "p_value": 0.01
+      },
+      "direction": "decrease",
+      "allowed_strength": "fact",
+      "risk_tags": []
+    },
+    {
+      "claim_id": "selected_subgroup",
+      "claim_type": "statistical_interpretation",
+      "canonical_text": "A data-selected subgroup showed a larger estimated difference.",
+      "source": "analysis.sensitivity",
+      "numbers": {
+        "estimate": -4.1
+      },
+      "direction": "decrease",
+      "allowed_strength": "exploratory",
+      "risk_tags": [
+        "post_selection"
+      ]
+    },
+    {
+      "claim_id": "protocol_limitation",
+      "claim_type": "limitation",
+      "canonical_text": "The public example omits protocol-level context and must not support mechanistic conclusions.",
+      "source": "provenance.limitations",
+      "numbers": {},
+      "direction": "none",
+      "allowed_strength": "fact",
+      "risk_tags": [
+        "incomplete_context"
+      ]
+    }
+  ]
+}
