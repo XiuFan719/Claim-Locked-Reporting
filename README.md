@@ -181,10 +181,22 @@ This is a reference implementation of the control protocol. It is suitable for i
 
 ## Citation
 
-If you find our work helpful, please consider citing it in your research.
-Your support would mean a lot to us! 
+If you find our work helpful, please consider citing it in your research.  
+Your support would mean a lot to us!
 
-The official citation metadata will be added after publication. 
+```bibtex
+@misc{fan2026provenanceproseclaimlockedreporting,
+      title={Provenance Before Prose: Claim-Locked Reporting},
+      author={Xiao Fan and Jingyuan Li and Hongbin Guo and Yubo Han and Yi Zhang},
+      year={2026},
+      eprint={2608.25336},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.25336}
+}
+```
+
+The citation metadata will be updated after the official publication.
 
 Thank you so much for your interest and support! ❤️
 
